@@ -22,20 +22,23 @@
 	Both halls are ideal for children's parties, informal meetings, social clubs, dance groups, exercise groups.
 	Both have disabled access and facilities.</p>
 	<p>The following Community Groups use our halls on a regular basis, if you would like to join one of them then please
-	use the contact details provided or <a href="mailto:judithhattam@btinternet.com">judithhattam@btinternet.com</a></p>
+	use the contact details provided or <a href="mailto:judithhattam@btinternet.com">judithhattam@btinternet.com</a>.</p>
 	<p>
 		<ul>
 			<li>East Bexhill Ladies Club</li>
-			<li>Keep Fit Wednesdays</li>
 			<li>St Michael's Lunch Club</li>			
-			<li>St Michael's Toddlers Group</li>
+			<li>St Michael's Parent + Toddlers Group</li>
 			<li>3rd Bexhill Scouts</li>
 			<li>Beavers</li>
 			<li>Cubs</li>
 			<li>Explorers</li>
-			<li>Line Dancing Monday, Wednesday and Thursday </li>
+			<li>Line Dancing Monday and Thursday </li>
 			<li>Mother's Union</li>
 			<li>St Michael's Craft & Chatter</li>
+			<li>Slimming World</li>
+			<li>Pilates</li>
+			<li>Care for Carers</li>
+			
 		</ul>
 	</p>
 

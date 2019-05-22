@@ -15,9 +15,9 @@
 	<hgroup> 
 		<h2>Contact Us</h2>
 	</hgroup>
-	<p>For all Church matters please contact Fr. Robert Featherstone at <a href="mailto:frrobertf@live.co.uk">frrobertf@live.co.uk</a> or call Tel 01424 576826.</p>
+	<p>For all Church matters please email one of the Church Wardens at <a href="mailto:vicarage@stmichaelsbexhill.org">vicarage@stmichaelsbexhill.org</a> and if they are unable to answer your query they will pass your message and/or request to the Team Rector.</p>
 	
-	<p>For Hall users please see the Hall users page of our website or contact 01424 730082 evenings up till 8 PM.</p>
+	<p>For Hall users please see the Hall users page of our website, <a href="mailto:judithhattam@btinternet.com">judithhattam@btinternet.com</a> or contact 01424 730082 evening up until 8pm.</p>
 	<?php 
 	$page->getEndContent();
 	$page->getPageBottom();

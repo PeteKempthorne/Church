@@ -28,7 +28,8 @@
 	child to be baptised and one should be of the other gender. Godparents must all be Baptised themselves and should also be 
 	confirmed. They should also be aged at least 16.</p>
 
-	<p>If you wish to discuss details further, please e-mail our vicar at <a href="mailto:frrobertf@live.co.uk">frrobertf@live.co.uk</a>.</p>
+	<p>If you wish to discuss details further, please email one of the Church Wardens at <a href="mailto:vicarage@stmichaelsbexhill.org">vicarage@stmichaelsbexhill.org</a> and if they 
+	are unable to answer your query they will pass your message and/or request to the Team Rector.</p>
 	<?php 
 	$page->getEndContent();
 	$page->getPageBottom();

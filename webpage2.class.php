@@ -63,13 +63,6 @@ Version 1.0
 		
 	}//end of style
 	
-	function displayStyleExtra()
-	{
-		//starts the function to display the end of the stylesheet
-		echo "<link rel=\"Stylesheet\" type=\"text/css\" href=\"jHtmlArea.css\" />\n";
-		
-	}//end of style
-	
 	function displayScript()
 	{
 		//starts the function to link the javascript
@@ -115,7 +108,7 @@ Version 1.0
 		?>
             <body id="index" class="home">
 <header id="banner" class="body">
-	<h1><img src="img/stmichaelslogo2.png" alt="Welcome to St Michael's and All Angels Church in Bexhill-On-Sea"></h1> 
+	<h1><img src="img/stmichaelslogo2.png"></h1> 
 	<?php
 	}
 	
@@ -128,10 +121,10 @@ Version 1.0
 	
 	<nav><ul>
 		<li class="active"><a href="index.php">Home</a></li>
-		<?php/*
+		<?php
 			include 'database_conn.php';
 			
-			$sql = "SELECT * FROM Category ORDER BY CatID";
+			$sql = "SELECT * FROM Category ORDER BY CatID DESC";
 			
 			$queryresult = mysql_query($sql) or die(mysql_error());
 			$count=mysql_num_rows($queryresult);
@@ -155,15 +148,13 @@ Version 1.0
 				}
 				echo"</ul>";
 				echo"</li>";
-			}*/?>
+			}
 		
-		<li><a href="#">Our Church</a>
+		/*<li><a href="#">Our Church</a>
 			<ul>
+				<li><a href="history.php">History</a></li>
 				<li><a href="people.php">People</a></li>
 				<li><a href="gallery.php">Gallery</a></li>
-				<li><a href="history.php">History</a></li>
-				<li><a href="DataProtection.pdf">GDPR</a></li>		
-				<li><a href="safeguarding.php">Saefguarding</a></li>					
 			</ul>
 		</li> 
 		<li><a href="#">Our Worship</a>
@@ -176,27 +167,26 @@ Version 1.0
 		</li>
 		<li><a href="#">Events</a>
 			<ul>
-				
+				<li><a href="hall-users.php">Hall Users</a></li>
 				<li><a href="christmas-tree-festival.php">Christmas Tree Festival</a></li>				
-				<li><a href="year-ahead.php">Events - Year Ahead</a></li>				
+				<li><a href="year-ahead.php">Year Ahead</a></li>				
 				<li><a href="fundraising.php">Fundraising</a></li>
 			</ul>
-		</li>
-		<li><a href="hall-users.php">Community Halls</a>
 		</li>
 		<li><a href="#">Contact</a>
 			<ul>
 				<li><a href="contact.php">Contact Us</a></li>
 				<li><a href="location.php">Location</a></li>
 			</ul>
-		</li>
-		/*?>*/
+		</li>*/
+		?>
 		
 	</ul>
 	<?php
 	if(isset($_SESSION['sessionFirstname']) && isset($_SESSION['sessionLastname']))
 	{
-		echo "<p><a href=\"admin.php\">Admin</a></p>";
+		//$id = $_SESSION['sessionUserID'];
+		echo "<p><a href=\"logout.php\">Logout</a></p>";
 	}
 	?>
 	
@@ -300,7 +290,7 @@ function displayEndContent()
 <footer id="contentinfo" class="body">
 	<address id="about" class="vcard body">
 		<span class="img1">
-			<img src ="img/tcoe.png" alt="Part of the Church of England"/>			
+			<img src ="img/tcoe.png" />			
 		</span>		
 		<span class="details">
 			<p>St Michael and All Angels<br />
@@ -309,7 +299,7 @@ function displayEndContent()
 			</p>
 		</span>		
 		<span class="img2">
-			<img src ="img/acny.jpg" alt="A church near you"/>
+			<img src ="img/acny.jpg" />
 		</span>
  
 	</address><!-- /#about -->
@@ -331,22 +321,6 @@ function displayEndContent()
 		$this -> displayScript();//displays the Javascript
 		$this -> displayScriptTwo();//displays the Javascript	
 		$this -> displayScriptThree();//displays the Javascript	
-		$this -> displayHeadSecond();//displays the second part of the head
-		$this -> displayTop();//displays the top of the body
-
-	}
-	
-	function getPageTopExtra()
-	{	
-		//this starts the main function, display, which will display the whole page
-		$this -> displayHeadFirst();//displays the first part of the head
-		$this -> displayTitle();//displays the page title
-		$this -> displayJQ();//displays the JQuery link
-		$this -> displayStyle();//displays the stylesheet
-		$this -> displayStyleExtra();//Extra sheet for jHTML area
-		$this -> displayScript();//displays the Javascript
-		$this -> displayScriptTwo();//displays the Javascript	
-		$this -> displayScriptThree();//displays the Javascript
 		$this -> displayHeadSecond();//displays the second part of the head
 		$this -> displayTop();//displays the top of the body
 

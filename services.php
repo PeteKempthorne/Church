@@ -17,12 +17,11 @@
 	</hgroup>
 	<p>The worship at St Michael's is centered around the Eucharist and normally follows the following pattern:</p>
 	<p><em>Sundays:</em><br />
-	08.00am Said Eucharist cancelled until further notice.<br />
 	09.30am All Age God's Half Hour (AAGHH) (2nd, 4th & 5th Sundays)<br />
 	10.30am Sung Eucharist (except 1st and 3rd Sunday) <br />
 	10.30am Family Communion (1st Sunday) <br />
 	10.30am Family Service (3rd Sunday) </p>
-	<p>Coffee and Tea are normally served in our Large Hall after the AAGHH 10.30 service</p>
+	<p>Coffee and Tea are normally served in our Large Hall after the AAGHH and 10.30 service.</p>
 	<p><em>Weekday Services</em><br />
 	Wednesday 11.00am Said Eucharist </p>
 	<p>(Services may change in special seasons of the Church's year, i.e. Easter and Christmas, with extra services at these 
